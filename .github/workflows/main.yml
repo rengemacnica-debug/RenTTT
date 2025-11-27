@@ -60,7 +60,7 @@ jobs:
       # include_diagnostics: true
 
             ### To enabable self-signed certificates
-      #network_ssl_trustAll: true
+      network_ssl_trustAll: true
       #network_ssl_cert_file: '/Users/Config/cert.pem'
 
       
@@ -95,7 +95,7 @@ jobs:
       # mark_build_status: 'success'
 
             ### To enabable self-signed certificates
-      #network_ssl_trustAll: true
+      network_ssl_trustAll: true
       #network_ssl_cert_file: '/Users/Config/cert.pem'
 
             ### Uncomment below configuration to add custom logic based on return status
